@@ -1,0 +1,17 @@
+.ourBlogs_headSec > p {
+  font-weight: 500;
+  color: black;
+  position: relative;
+  /* width: fit-content; */
+  width: max-content;
+}
+
+.ourBlogs_headSec > p::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50px;
+  width: 50%;
+  height: 3px;
+  background: var(--bs-primary);
+}

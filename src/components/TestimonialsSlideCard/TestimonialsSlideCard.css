@@ -1,0 +1,21 @@
+.testimonialsSlideCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.testimonialsSlideCard > img {
+  object-fit: contain;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.testimonialsSlideCard > p:last-child {
+  width: 70%;
+  font-family: initial;
+  font-size: 25px;
+  letter-spacing: 1px;
+}

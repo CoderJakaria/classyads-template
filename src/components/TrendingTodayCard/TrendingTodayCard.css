@@ -1,0 +1,44 @@
+.trendingTodayCard {
+  display: flex;
+  justify-content: space-between;
+  height: 180px;
+  background: white;
+  -webkit-box-shadow: 0 2px 20px -2px rgb(0 0 0 / 10%);
+  box-shadow: 0 2px 20px -2px rgb(0 0 0 / 10%);
+  margin-bottom: 30px;
+  border-radius: 7px;
+  width: 48% !important;
+  margin-right: auto;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.trendingTodayCard img {
+  width: 200px;
+  height: 100%;
+  margin-left: -10px;
+}
+
+.trendingTodayCard__details {
+  padding: 20px;
+}
+
+.trendingTodayCard__details h3 {
+  font-size: 20px;
+  color: var(--bs-primary);
+}
+
+.trendingTodayCard__details span {
+  background: #e9ecef;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.trendingTodayCard__details .MuiSvgIcon-root {
+  color: var(--bs-primary);
+  font-size: 20px !important;
+  cursor: pointer;
+}

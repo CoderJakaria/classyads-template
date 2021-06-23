@@ -1,0 +1,17 @@
+.owl-prev,
+.owl-next {
+  font-size: 40px !important;
+  font-weight: bold !important;
+  color: gray !important;
+  margin-right: 20px !important;
+}
+
+.owl-next:hover,
+.owl-prev:hover {
+  color: var(--bs-primary) !important;
+  background: initial !important;
+}
+
+.owl-dot {
+  display: none;
+}

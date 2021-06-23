@@ -1,0 +1,47 @@
+.overviewCard {
+  cursor: pointer;
+}
+
+.overviewCard .MuiSvgIcon-root {
+  color: var(--bs-primary);
+}
+
+.overviewCard div {
+  transition: 0.3s all ease-in-out !important;
+  border-radius: 5px;
+}
+
+.overviewCard:hover div {
+  background: var(--bs-primary) !important;
+  color: white !important;
+  margin-top: -15px;
+}
+
+.overviewCard:hover .MuiSvgIcon-root {
+  color: white;
+}
+
+.overviewCard span {
+  transition: 0.3s;
+}
+
+.overviewCard:hover span {
+  background: white !important;
+  color: black !important;
+  transition-delay: 0.2s;
+}
+
+.overviewCard span {
+  background: lightgray;
+  color: black;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+.overviewCard p {
+  padding: 5px 0 !important;
+}
+
+.overviewCard__card {
+  padding: 30px 15px;
+}

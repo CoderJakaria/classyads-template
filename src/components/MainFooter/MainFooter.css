@@ -1,0 +1,42 @@
+.mainFooter {
+  background: #333333;
+  padding: 100px 0;
+}
+
+.mainFooter a {
+  display: block;
+  color: gray !important;
+  margin-bottom: 5px;
+}
+
+.mainFooter_socials .MuiSvgIcon-root {
+  margin-right: 10px !important;
+  font-size: 20px !important;
+}
+
+.mainFooter_searchBox {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  height: 50px;
+}
+
+.mainFooter_searchBox input {
+  color: white;
+  height: 100%;
+  padding: 5px 10px;
+  background: transparent;
+  border: 1px solid gray;
+  outline: none;
+}
+
+.mainFooter_searchBox button {
+  height: 100% !important;
+  border-radius: 0 !important;
+}
+
+.mainFooter_searchBox button:focus,
+.mainFooter_searchBox button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}

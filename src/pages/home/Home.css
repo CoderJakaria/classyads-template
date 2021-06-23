@@ -1,0 +1,39 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  /* background-image: url(https://preview.colorlib.com/theme/classyads/images/xhero_2.jpg.pagespeed.ic._xYTRIlPTB.webp); */
+  background-position: 50% -25px;
+  background-size: cover;
+  padding: 5px;
+  position: relative;
+}
+
+.home__located.container.mt-5 {
+  margin-top: 150px !important;
+}
+
+.home__mid {
+  background: #ffffff85;
+  border-radius: 5px;
+}
+
+.home__mid input,
+.home__mid select {
+  border: none !important;
+  outline: none !important;
+  width: 100%;
+  background: white !important;
+  padding: 10px !important;
+  border-radius: 5px;
+  opacity: 1 !important;
+}
+
+.home__mid button {
+  width: 100%;
+}
+
+.home__para {
+  font-size: 19px;
+  font-weight: 400;
+  color: #b5b8b3;
+}

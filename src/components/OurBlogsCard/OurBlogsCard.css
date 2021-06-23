@@ -1,0 +1,17 @@
+.ourBlogsCard h3 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.ourBlogsCard_timestamp {
+  margin-bottom: 10px;
+}
+
+.ourBlogsCard p {
+  font-size: 16px;
+  color: black;
+}
+.ourBlogsCard_news {
+  cursor: pointer;
+}

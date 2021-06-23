@@ -1,0 +1,18 @@
+.header {
+  background: white;
+  border-radius: 5px;
+  padding-left: 20px;
+  z-index: 30 !important;
+}
+
+.header a {
+  transition: 0.4s ease;
+}
+
+.header a:hover {
+  color: #30e3ca !important;
+}
+
+.header_right_border {
+  border-right: 1px solid rgb(201, 201, 201);
+}

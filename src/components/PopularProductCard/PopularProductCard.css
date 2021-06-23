@@ -1,0 +1,63 @@
+.popularProductCard {
+  height: 300px;
+  overflow: hidden;
+}
+
+.popularProductCard.col-md-4.mr-auto.position-relative {
+  margin-right: auto;
+}
+.popularProductCard.col-md-6.mr-auto.position-relative {
+  margin-right: auto;
+}
+
+.popularProductCard::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: black;
+  opacity: 0.3;
+  z-index: 5;
+}
+
+.popularProductCard:hover img {
+  transform: scale(1.1);
+}
+
+.popularProductCard img {
+  object-fit: cover;
+  transition: 0.4s ease;
+  left: 0 !important;
+}
+
+.popularProductCard span {
+  position: absolute;
+  bottom: 100px;
+  left: 20px;
+  background: var(--bs-primary);
+  color: white;
+  padding: 5px 13px;
+  border-radius: 20px;
+  font-size: 15px;
+  z-index: 6;
+  cursor: pointer;
+}
+
+.popcard__flexer {
+  z-index: 7 !important;
+  margin-bottom: -10px !important;
+}
+
+.popcard__flexer .MuiSvgIcon-root {
+  background: #f8f9fa85;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.popcard__flexer .MuiSvgIcon-root:hover {
+  background: red;
+}

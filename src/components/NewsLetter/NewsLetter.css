@@ -1,0 +1,21 @@
+.newsLetter_wrapp {
+  padding: 40px 0;
+}
+
+.newsLetter_textField {
+  color: white !important;
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  height: 38px;
+}
+
+.newsLetter_textField::placeholder {
+  color: white;
+}
+
+.newsLetter_wrapp button {
+  border: initial !important;
+}
